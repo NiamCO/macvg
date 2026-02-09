@@ -1,92 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Site Updated</title>
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      font-family: system-ui, sans-serif;
-    }
+  <head>
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5598129470490010"
+      crossorigin="anonymous"
+    ></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y71QM9DR66"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    body {
-      background: #000;
-    }
-
-    .overlay {
-      position: fixed;
-      inset: 0;
-      background: radial-gradient(circle at center, #141414, #000);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      z-index: 99999999;
-    }
-
-    .box {
-      text-align: center;
-      padding: 32px;
-      border-radius: 16px;
-      border: 2px solid #ff7a00;
-      box-shadow:
-        0 0 30px rgba(255,120,0,0.5),
-        inset 0 0 15px rgba(255,120,0,0.2);
-      background: #0d0d0d;
-      max-width: 360px;
-    }
-
-    .box h1 {
-      margin: 0 0 12px;
-      font-size: 24px;
-      color: #ff9e40;
-    }
-
-    .box p {
-      margin: 0 0 22px;
-      font-size: 14px;
-      color: #ffb46a;
-    }
-
-    .box a {
-      display: inline-block;
-      padding: 12px 22px;
-      border-radius: 10px;
-      background: linear-gradient(135deg, #ff7a00, #ffb347);
-      color: #111;
-      font-weight: 700;
-      font-size: 14px;
-      text-decoration: none;
-      box-shadow:
-        0 4px 0 #cc5f00,
-        0 0 18px rgba(255,120,0,0.5);
-      transition: transform .15s ease, box-shadow .15s ease;
-    }
-
-    .box a:hover {
-      transform: translateY(-2px);
-      box-shadow:
-        0 6px 0 #cc5f00,
-        0 0 26px rgba(255,120,0,0.7);
-    }
-
-    .box a:active {
-      transform: translateY(2px);
-      box-shadow:
-        0 2px 0 #cc5f00,
-        0 0 12px rgba(255,120,0,0.4);
-    }
-  </style>
-</head>
-
-<body>
-  <div class="overlay">
-    <div class="box">
-      <h1>We moved 🚀</h1>
-      <p>The new version of this site is live. Click below to go to the updated site.</p>
-      <a href="https://niamco.github.io/update">Go to the new site</a>
-    </div>
-  </div>
-</body>
+      gtag("config", "G-Y71QM9DR66");
+    </script>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="src/assets/logo.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | MacVG</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet" />
+    <meta name="author" content="MacWeb" />
+    <meta
+      name="description"
+      content="Play 500+ free unblocked games at MacVG! From action and puzzle to retro classics, enjoy online gaming anytime, anywhere."
+    />
+    <meta
+      name="keywords"
+      content="unblocked, games, game site, unblocked games, game, gaming, macvg, online games, unblocked game site, free games"
+    />
+    <link rel="canonical" href="https://mac-web.github.io/macvg/" />
+    <meta property="og:site_name" content="MacVG" />
+    <meta property="og:title" content="MacVG—500+ unblocked free games" />
+    <meta
+      property="og:description"
+      content="Play 500+ free unblocked games at MacVG! From action and puzzle to retro classics, enjoy online gaming anytime, anywhere."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mac-web.github.io/macvg/" />
+    <meta property="og:image" content="https://mac-web.github.io/macvg/logo.png" />
+    <meta property="og:image:width" content="1000" />
+    <meta property="og:image:height" content="1000" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "MacVG",
+        "url": "https://mac-web.github.io/macvg/"
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
